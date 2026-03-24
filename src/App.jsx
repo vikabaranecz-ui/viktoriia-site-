@@ -376,7 +376,12 @@ export default function App() {
         <Reveal delay={100}>
           <div style={{ background: white, border: `1.5px solid ${line}`, padding: 28 }}>
             <div style={{ fontFamily: mono, fontSize: 9, letterSpacing: "0.28em", textTransform: "uppercase", color: muted, marginBottom: 18 }}>Find me here</div>
-            {["LinkedIn", "Instagram", "Email"].map((name) => (
+            {[
+  { name: "LinkedIn", link: "https://www.linkedin.com/in/viktoriia-reshetniak-6a4684251/" },
+  { name: "Instagram", link: "#" },
+  { name: "Email", link: "mailto:your@email.com" },
+  { name: "WhatsApp", link: "https://wa.me/32471623105" }
+].map((name) => (
               <div key={name} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "15px 0", borderBottom: `1px solid ${line}`, fontSize: 14, fontWeight: 500, cursor: "pointer" }}>
                 <span>{name}</span>
                 <span style={{ fontSize: 12, color: muted }}>→</span>
