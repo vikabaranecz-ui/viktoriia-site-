@@ -394,6 +394,46 @@ export default function App() {
         </div>
       </footer>
 
-    </div>
+    </div><div style={{ padding: "40px 20px", textAlign: "center" }}>
+  <h2>Contact</h2>
+  <p>Contact us directly or connect via LinkedIn</p>
+
+  <div style={{
+    display: "flex",
+    gap: "20px",
+    justifyContent: "center",
+    marginTop: "20px"
+  }}>
+    <a
+      href="https://wa.me/32471623105"
+      target="_blank"
+      rel="noreferrer"
+      style={{
+        padding: "10px 20px",
+        background: "#25D366",
+        color: "white",
+        borderRadius: "8px",
+        textDecoration: "none"
+      }}
+    >
+      WhatsApp
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/viktoriia-reshetniak-6a4684251/"
+      target="_blank"
+      rel="noreferrer"
+      style={{
+        padding: "10px 20px",
+        background: "#0077b5",
+        color: "white",
+        borderRadius: "8px",
+        textDecoration: "none"
+      }}
+    >
+      LinkedIn
+    </a>
+  </div>
+</div>
   );
 }
