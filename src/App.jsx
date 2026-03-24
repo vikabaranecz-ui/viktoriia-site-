@@ -368,7 +368,7 @@ export default function App() {
           <p style={{ fontSize: 16, lineHeight: 1.78, color: muted, marginBottom: 30, fontWeight: 300, maxWidth: 380 }}>
             I work with companies that want a real brand — not just a campaign. If you are tired of short-term thinking and want to build something your clients actually trust, let's talk.
           </p>
-          <a href="mailto:your@email.com" style={{ display: "inline-block", padding: "13px 26px", fontFamily: mono, fontSize: 11, letterSpacing: "0.16em", textTransform: "uppercase", background: ink, color: paper, cursor: "pointer" }}>
+          <a href="mailto:vikabaranecz@gmail.com" style={{ display: "inline-block", padding: "13px 26px", fontFamily: mono, fontSize: 11, letterSpacing: "0.16em", textTransform: "uppercase", background: ink, color: paper, cursor: "pointer" }}>
             Send me a message
           </a>
         </Reveal>
