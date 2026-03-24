@@ -381,9 +381,19 @@ export default function App() {
   { name: "Instagram", link: "#" },
   { name: "Email", link: "mailto:your@email.com" },
   { name: "WhatsApp", link: "https://wa.me/32471623105" }
-].map((name) => (
-              <div key={name} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "15px 0", borderBottom: `1px solid ${line}`, fontSize: 14, fontWeight: 500, cursor: "pointer" }}>
-                <span>{name}</span>
+].map((item) => (
+              <a
+  key={item.name}
+  href={item.link}
+  target="_blank"
+  rel="noreferrer"
+  style={{ textDecoration: "none", color: "inherit" }}
+>
+  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "15px 0", borderBottom: `1px solid ${line}` }}>
+    <span>{item.name}</span>
+    <span style={{ fontSize: 12, color: muted }}>→</span>
+  </div>
+</a>
                 <span style={{ fontSize: 12, color: muted }}>→</span>
               </div>
             ))}
